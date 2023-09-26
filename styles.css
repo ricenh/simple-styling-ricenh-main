@@ -4,21 +4,44 @@ body {
     margin-right: 4em;
     margin-left: 4em;
     margin-bottom: 0em;
+    font-family: 'Open Sans';
+
 }
 h1 {
     font-family: 'Roboto Slab';
     font-size: 2rem;
+    color: #9f2042;
+    text-transform: uppercase;
 }
 blockquote {
     font-family: 'Roboto Slab';
     font-size: 1.25rem;
+    border: 1px solid;
+    border-color: #ececec;
+    background-color: #f9f9f9;
 }
 img {
     margin-top: 2em;
-    margin-right: 4em;
-    margin-left: 20em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%
 }
-#buttons {
-    color: green;
+a {
+    color: #9f2042;
+}
+a:visited {
+    color: #9f2042;
+}
+#details {
+    color: #a9a9ba;
+    text-align: auto;
+    font-size:larger;
+}
+footer {
+    border: 1rem solid;
+    border-color: #29293a;
+    background-color: #29293a;
+    color: white;
+}
 
-}
+
