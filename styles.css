@@ -5,13 +5,15 @@ body {
     margin-left: 4em;
     margin-bottom: 0em;
     font-family: 'Open Sans';
-
+    border: 1px;
+    background-color: #f9f9f9;
 }
 h1 {
     font-family: 'Roboto Slab';
     font-size: 2rem;
     color: #9f2042;
     text-transform: uppercase;
+    text-align: center;
 }
 blockquote {
     font-family: 'Roboto Slab';
@@ -19,9 +21,9 @@ blockquote {
     border: 1px solid;
     border-color: #ececec;
     background-color: #f9f9f9;
+    padding: 30px;
 }
 img {
-    margin-top: 2em;
     margin-right: auto;
     margin-left: auto;
     width: 100%
@@ -36,12 +38,21 @@ a:visited {
     color: #a9a9ba;
     text-align: auto;
     font-size:larger;
+    text-align: center;
 }
 footer {
     border: 1rem solid;
     border-color: #29293a;
     background-color: #29293a;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 2em;
+}
+#buttons a{
+    border: 1px solid;
+    border-color: #a9a9a9;
+    padding: 12px;
+    margin: 2px;
 }
 
 
